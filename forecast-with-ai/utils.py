@@ -99,7 +99,7 @@ def get_answer_csv(file, query: str) -> str:
                     "content": prompt,
                 },
             ],
-            model="llama-3.1-70b-versatile",
+            model="llama-3.3-70b-versatile",
             temperature=0.5,
             max_tokens=1000,
         )
